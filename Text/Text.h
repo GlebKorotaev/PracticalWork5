@@ -18,6 +18,7 @@ public:
 				{
 					std::string mes(message,0, i + 2+1);
 					message = mes;
+					break;
 				}
 			}
 		}
